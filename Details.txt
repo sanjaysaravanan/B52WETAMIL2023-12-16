@@ -1,0 +1,53 @@
+
+Topics:
+
+  Error Handling:
+    Unknown erros gets thrown by default when we do something wrong,
+
+      assignment to a constant variable
+      division by zer0
+      changing the array length type
+    
+    We can manually throw an error when we think something is wrong,
+      throw new Error();
+
+
+  Async/Await:
+
+    avoid chaining of promises, synchronous execution promises
+
+      async --> implies we are carring an async operation inside a function
+      await --> waiting for the promise to get resolved
+    
+    async function returns a promise
+
+  https://api.openweathermap.org/data/2.5/weather?q=Chennai&appid=991f626650507e6605c2ca33f8edc191
+  
+  Public APIs: ( learn about public apis, any doubts please note and discuss )
+
+    https://github.com/public-apis/public-apis
+
+    1. Publics APIs
+      Look for You requirement & Choose a type of API
+      Use APIs which has HTTPS 
+      If Signing is fine Go for Auth, HTTPS, CORS enabled
+
+      Read the Documentation Test the API before choosing it
+
+    2. Implementation of DOM manipulation examples
+      1. Get City weather examples
+
+    3. Design Ideas, https://spicey-hut.netlify.app/recipe.html, https://shoppingcart-spicyhut.netlify.app/#header
+
+    intro to public APIs ---> Choose public APIs based on the API_key, Https, Cors
+
+
+Information From Co-Ordinator:
+  After this weekend You will be having the first **mock interview** in coming weeks. Information for the same will be shared via email.
+
+
+Next Class:
+  window objects localStorage & Session Storage
+  Public APIs: ( learn about public apis, any doubts please note and discuss )
+
+    
